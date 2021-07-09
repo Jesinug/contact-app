@@ -15,7 +15,6 @@ import React from 'react';
             }
                 this.props.addContactHandler(this.state);
                 this.setState({name:"", email:""})
-            console.log(this.state);
         };
 
 
